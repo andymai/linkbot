@@ -20,3 +20,7 @@ Linkbot should appear in your Slack's direct messages list. Invite Linkbot to wh
 ## Example Usage
 
 ![Linkbot Usage](https://github.com/andymai/linkbot/blob/master/example/linkbot-example.png)
+
+## Todo
+
+* Support ability to search existing bookmarks.

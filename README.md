@@ -1,4 +1,4 @@
-Linkbot is a simple bot that lets you save and retrieve text snippets on Slack. It's a great way to quickly post quotes, reaction images, and links. 
+Linkbot is a simple bot that lets you save and retrieve text snippets on Slack. It's a great way to quickly post quotes, reaction images, and links using simple .<keyword> commands.
 
 ## Setup
 

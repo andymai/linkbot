@@ -21,6 +21,22 @@ Linkbot should appear in your Slack's direct messages list. Invite Linkbot to wh
 
 ![Linkbot Usage](https://github.com/andymai/linkbot/blob/master/example/linkbot-example.png)
 
+## Available Commands
+
+```sh
+# Create a link
+.bookmark <handle> <link>
+
+# Delete a link
+.unmark <handle>
+
+# Link a google query
+.g <query>
+
+# Lookup Weather
+.weather <zipcode>
+```
+
 ## Todo
 
 * Support ability to search existing bookmarks.

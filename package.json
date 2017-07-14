@@ -25,7 +25,8 @@
     "request": "^2.60.0",
     "slackbots": "^0.3.0",
     "sqlite3": "^3.0.10",
-    "q": "^1.4.1"
+    "q": "^1.4.1",
+    "weather-js": "^2.0.0"
   },
   "devDependencies": {
     "xo": "^0.5.2"

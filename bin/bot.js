@@ -23,9 +23,9 @@ var dbPath = process.env.BOT_DB_PATH;
 var name = process.env.BOT_NAME;
 
 var linkbot = new LinkBot({
-    token: token,
-    dbPath: dbPath,
-    name: name
+	token: token,
+	dbPath: dbPath,
+	name: name
 });
 
 linkbot.run();

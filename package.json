@@ -16,16 +16,18 @@
     "test": "xo bin/bot.js lib/linkbot.js"
   },
   "author": "Andy Mai <hi@andymai.com>",
-  "license": "MIT",
-  "engines": {
-    "node": ">=0.10.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andymai/linkbot"
   },
+  "license": "MIT",
   "dependencies": {
-    "async": "^2.0.0-rc.3",
-    "request": "^2.60.0",
+    "async": "^2.6.0",
+    "node": "^9.5.0",
+    "q": "^1.5.1",
+    "request": "^2.83.0",
     "slackbots": "^0.3.0",
-    "sqlite3": "^3.0.10",
-    "q": "^1.4.1",
+    "sqlite3": "^3.1.13",
     "weather-js": "^2.0.0"
   },
   "devDependencies": {

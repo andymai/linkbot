@@ -1,4 +1,6 @@
-Linkbot is a simple bot that lets you save and retrieve text snippets on Slack. It's a great way to quickly post quotes, reaction images, and links using simple .<keyword> commands.
+# Linkbot
+
+Linkbot is a simple bot that lets you save and retrieve text snippets on Slack. It's a great way to quickly post quotes, reaction images, and links using simple .keyword commands.
 
 ## Setup
 
@@ -12,7 +14,7 @@ Add your Slack's API key to `token-example.js` and rename to `token.js`. Setting
 ## Running
 
 ```sh
-node bin/bot.js
+npm start
 ```
 
 Linkbot should appear in your Slack's direct messages list. Invite Linkbot to whichever channels you want.

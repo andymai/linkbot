@@ -12,8 +12,7 @@
     "linkbot": "bin/bot.js"
   },
   "scripts": {
-    "start": "node bin/bot.js",
-    "test": "xo bin/bot.js lib/linkbot.js"
+    "start": "node bin/bot.js"
   },
   "author": "Andy Mai <hi@andymai.com>",
   "repository": {
@@ -23,25 +22,10 @@
   "license": "MIT",
   "dependencies": {
     "async": "^2.6.0",
-    "node": "^9.5.0",
     "q": "^1.5.1",
-    "request": "^2.83.0",
-    "slackbots": "^0.3.0",
-    "sqlite3": "^3.1.13",
+    "slackbots": "^0.5.0",
+    "sqlite3": "^3.0.10",
+    "util": "^0.10.3",
     "weather-js": "^2.0.0"
-  },
-  "devDependencies": {
-    "xo": "^0.5.2"
-  },
-  "xo": {
-    "space": 4,
-    "rules": {
-      "camelcase": [
-        2,
-        {
-          "properties": "never"
-        }
-      ]
-    }
   }
 }

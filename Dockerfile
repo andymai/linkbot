@@ -1,19 +1,19 @@
 FROM node:9-alpine
 
+RUN apk add --no-cache python sqlite build-base
+
 # Create app directory
 WORKDIR /usr/src/app
 
 # Install app dependencies
 COPY package*.json ./
 
-RUN apk add --no-cache --virtual .gyp \
-  python \
-  make \
-  g++ \
-  && npm install \
-  && apk del .gyp
+RUN npm install
 
 # Bundle app source
 COPY . .
+
+# Create database
+RUN node data/databaseGenerator.js
 
 CMD [ "npm", "start" ]

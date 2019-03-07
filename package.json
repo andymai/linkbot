@@ -22,8 +22,11 @@
   "license": "MIT",
   "dependencies": {
     "async": "^2.6.2",
+    "cryptiles": ">=4.1.2",
+    "deep-extend": ">=0.5.1",
     "q": "^1.5.1",
-    "slackbots": "^1.2.0",
+    "slackbots": "0.5.3",
+    "sshpk": ">=1.13.2",
     "sqlite3": "^4.0.6",
     "util": "^0.11.1",
     "weather-js": "^2.0.0"

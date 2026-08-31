@@ -27,8 +27,12 @@
     "q": "1.5.1",
     "slackbots": "0.5.3",
     "sshpk": "1.16.1",
-    "sqlite3": "4.2.0",
+    "sqlite3": "^6.0.1",
     "util": "0.12.3",
     "weather-js": "2.0.0"
+  },
+  "resolutions": {
+    "form-data": "^2.5.4",
+    "json-schema": "^0.4.0"
   }
 }
